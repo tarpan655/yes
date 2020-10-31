@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+  
+<div class="container p-3 my-3 bg-primary text-white">
+  <h1><u>My Family</u></h1>
+  <p>This part is inside a .container-fluid class.</p>
+  <p>a group of one or more parents and their children living together as a unit.
+"the family lived in a large house with a lot of land"</p>           
+</div>
+<div class="container-liquid">
+  <h3 style="background-color: lightgreen ;color:black;text-align: center;">This is the details of our Family.</h3>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col" style="background-color: lavender">
+      <h3 style="text-align: center;">Head Of the Family</h3>
+      <p>Name- Durlav ch.Sahoo</p>
+      <p>Age - 81</p>
+      <p>Occupation - Master</p>
+    </div>
+    <div class="col" style="background-color: orange">
+      <h3 style="text-align: center;">Father</h3>
+      <p>Name- Tarun Kumar Sahoo</p>
+      <p>Age - 54</p>
+      <p>Occupation - Teacher</p>
+    </div>
+    <div class="col" style="background-color: tomato">
+      <h3 style="text-align: center;">Successors</h3>
+      <p>Name- Tarpan & Turjya Kumar Sahoo</p>
+      <p>Age - 21 & 15</p>
+      <p>Occupation - Student</p>
+    </div>
+  </div>
+</div>
+</div>
+<div class="container-liquid" style="margin: 20px">
+<img src="family.jpg" class="img-thumbnail" alt="My Family" width="1516" height="100">
+</div>
+<div class="container">
+  <button type="button" class="btn btn-warning">FaceBook Links</button>
+                                           
+  <div class="dropdown" style="padding: 10px">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      Click Here to get the FaceBook Link
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="https://www.facebook.com/">To add Tarpan as Friend</a>
+      <a class="dropdown-item" href="https://www.facebook.com/turjya.kumarsahoo">To add Turjya as Friend</a>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo" style="margin: 20px">Enter Your Contact Details</button>
+  <div id="demo" class="collapse">
+    <form action="/action_page.php">
+    <div class="row">
+      <div class="col">
+        <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name">
+      </div>
+      <div class="col">
+        <input type="Contact" class="form-control" placeholder="Enter mobile No." name="Contact">
+      </div>
+    </div>
+    <a button type="submit" class="btn btn-primary mt-3" href="https://www.whatsapp.com/">Submit</a>
+    
+  </form>
+  </div>
+</div>
+
+</body>
+</html>
